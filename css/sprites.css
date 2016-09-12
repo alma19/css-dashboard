@@ -1,0 +1,83 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-green-man {
+    width: 81px;
+    height: 72px;
+    background-position: -5px -5px;
+}
+
+.sprite-icon_-dashboard_blue {
+    width: 58px;
+    height: 58px;
+    background-position: -96px -5px;
+}
+
+.sprite-icon_analytics_blue {
+    width: 42px;
+    height: 50px;
+    background-position: -164px -5px;
+}
+
+.sprite-icon_analytics_green {
+    width: 42px;
+    height: 50px;
+    background-position: -164px -65px;
+}
+
+.sprite-icon_customers_blue {
+    width: 62px;
+    height: 42px;
+    background-position: -5px -125px;
+}
+
+.sprite-icon_customers_green {
+    width: 62px;
+    height: 42px;
+    background-position: -77px -125px;
+}
+
+.sprite-icon_dashboard_green {
+    width: 58px;
+    height: 58px;
+    background-position: -149px -125px;
+}
+
+.sprite-icon_messages_green {
+    width: 57px;
+    height: 48px;
+    background-position: -216px -5px;
+}
+
+.sprite-icon_messenges_blue {
+    width: 57px;
+    height: 48px;
+    background-position: -216px -63px;
+}
+
+.sprite-icon_page_creator_blue {
+    width: 45px;
+    height: 50px;
+    background-position: -217px -121px;
+}
+
+.sprite-icon_page_creator_green {
+    width: 45px;
+    height: 50px;
+    background-position: -5px -181px;
+}
+
+.sprite-icon_promotions_blue {
+    width: 50px;
+    height: 50px;
+    background-position: -60px -181px;
+}
+
+.sprite-icon_promotions_green {
+    width: 50px;
+    height: 50px;
+    background-position: -217px -181px;
+}

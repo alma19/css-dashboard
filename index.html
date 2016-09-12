@@ -20,19 +20,11 @@
 
     <!-- Custom styles for this template -->
     <link href="css/styles.css" rel="stylesheet">
+    <link href="css/sprites.css" rel="stylesheet">
     <link href="css/sprites2.css" rel="stylesheet">
-    <link href="css/bootstrap.min.css" type="text/css" rel=stylesheet"> 
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet"> 
     
-    <!--
-    <link href="css/ad_sprites.css" rel="stylesheet">
-    <link href="css/ad_sprites.css" rel="stylesheet">
-    <link href="css/analytics_sprites.css" rel="stylesheet">
-    <link href="css/announcements_sprites.css" rel="stylesheet">
-    <link href="css/footer_sprites.css" rel="stylesheet">
-    <link href="css/header_sprites.css" rel="stylesheet">
-    <link href="css/menu_sprites.css" rel="stylesheet">
-    <link href="css/recommendations_sprites.css" rel="stylesheet">
-    <link href="css/tasks_sprites.css" rel="stylesheet"> --> 
+    
     
     
 
@@ -71,40 +63,32 @@
         
         <div class="col-md-6">
           <ul class="icons">
-            <li> <a href="#">
-               <img class="dashboard-icon" src="images/icon_dashboard_green.png">
-                 <!--<img src="images/icon_dashboard_green.png">
-                </a> -->
-                
+            <li> 
+                <a class="dashboard-icon" href="#"></a>
             </li>
             
             <li>
-              <a href="#">
-                  <img src="images/icon_customers_green.png">
+              <a class="customer-icon" href="#"></a>
                 </a>
             </li>
             
             <li>
-              <a href="#">
-                  <img src="images/icon_messages_green.png">
+              <a class="message-icon" href="#">
                 </a>
             </li>
             
             <li>
-               <a href="#">
-                  <img src="images/icon_promotions_green.png">
+               <a class="promotions-icon" href="#">
                 </a>
             </li>
             
             <li>
-              <a href="#">
-                  <img src="images/icon_page_creator_green.png">
+              <a class="page-creator-icon" href="#">
                 </a>
             </li>
             
             <li>
-               <a href="#">
-                  <img src="images/icon_analytics_green.png">
+               <a class="analytics-icon" href="#">
                 </a>
             </li>
             
@@ -205,71 +189,82 @@
            
            <!--TASK-->
             
-              <div class="tasks col-lg-4 col-md-4 col-xs-4">
+              <div class="tasks col-lg-4 col-md-4 col-sm-12 col-xs-12">
                 <div class="row">
                 <div class="col-xs-10">
-                <p class="tasks-text" id="tasks-title">Tasks</p>
+                <p id="tasks-title">Tasks</p>
                 </div>
                 <div class="col-xs-2" id="gray-settings">
                 <i class="sprite sprite-gray-settings"></i>
                 </div>                
             </div> <!--ROW-->
                 
+                
                 <div class="tasks-row row">
-                  <a href="#">
+                <div class="tasks-top-row">  
+                  <a href="#" class="task-row">
                     
-                    <span class="green-circle">1</span>
+                    <span class="green-circle tasks-row">1</span>
                     
                     
-                    <span class="tasks-text">Welcome Contacts</span>
+                    <span class="tasks-text tasks-row">Welcome Contacts</span>
                    
+                    <span>
+                    <div class="tasks-box tasks-row">
+                      <div class="sprite sprite-blue-man"></div>
+                      <div class="tasks-numbers tasks-row">32</div>
+                    </div> <!--TASKS-BOX-->
+                    </span>
                     
-                    <div class="tasks-box">
-                      <div class="sprite sprite-blue-man"></div>
-                      <div class="tasks-numbers">32</div>
-                    </div>
-                    
                   </a>
-                </div> <!--TASKS-NUMBERS ROW-->
+                  
+                </div> <!--TASKS-TOP-ROW-->
+                </div><!--TASKS-ROW--> 
                 
                 <div class="tasks-row row">
+                  <div class="tasks-top-row">
                   <a href="#">
-                    <span class="green-circle">2</span>
-                    <span class="tasks-text">Provide Responses</span>
-                    <div class="tasks-box">
+                    <span class="green-circle tasks-row">2</span>
+                    <span class="tasks-text tasks-row">Provide Responses</span>
+                    <div class="tasks-box tasks-row">
                       <div class="sprite sprite-blue-man"></div>
-                      <div class="tasks-numbers">36</div> 
+                      <div class="tasks-numbers tasks-row">36</div> 
                     </div>
                   </a>
-                </div> <!--TASKS NUMBERS ROW-->
+                  </div><!--TASKS-TOP-ROW--> 
+                </div> <!--TASKS-ROW-->
                 
                 <div class="tasks-row row">
+                  <div class="tasks-top-row">
                   <a href="#">
-                    <span class="green-circle">3</span>
-                    <span class="tasks-text">Review Activity</span>
-                    <div class="tasks-box">
+                    <span class="green-circle tasks-row">3</span>
+                    <span class="tasks-text tasks-row">Review Activity</span>
+                    <div class="tasks-box tasks-row">
                       <div class="sprite sprite-blue-man"></div>
-                      <div class="tasks-numbers">36</div> 
+                      <div class="tasks-numbers tasks-row">36</div> 
                     </div>
                   </a>
-                </div> <!--TASKS NUMBERS ROW-->
+                  </div><!--TASKS-TOP-ROW-->
+                </div> <!--TASKS-ROW-->
                 
                 <div class="tasks-row row">
+                  <div class="tasks-top-row">
                   <a href="#">
-                    <span class="green-circle">4</span>
-                    <span class="tasks-text">Reach Out</span>
-                    <div class="tasks-box">
+                    <span class="green-circle tasks-row">4</span>
+                    <span class="tasks-text tasks-row">Reach Out</span>
+                    <div class="tasks-box tasks-row">
                       <div class="sprite sprite-blue-man"></div>
-                      <div class="tasks-numbers">3</div> 
+                      <div class="tasks-numbers tasks-row">3</div> 
                     </div>
                   </a>
-                </div> <!--TASKS NUMBERS ROW-->
+                  </div><!--TASKS-TOP-ROW-->
+                </div> <!--TASKS-ROW-->
                 
                 <!--RECOMMENDATIONS--> 
                 
                 <div class="row">
                   <div class="col-xs-10">
-                  <p class="tasks-text" id="recommendations-title">Recommendations</p>
+                  <p id="recommendations-title">Recommendations</p>
                 </div>                
                </div> <!--ROW-->
                 
@@ -308,9 +303,9 @@
             </div><!--TASKS COL-LG-4-->            
                
             <!--ANALYTICS-->           
-            <div class="analytics col-lg-8 col-md-8 col-xs-8">
+            <div class="analytics col-lg-8 col-md-8 col-sm-12 col-xs-12">
               <div id="analytics-title">Analytics</div>
-              <div class="bar-graph col-lg-10 col-md-10 col-xs-10">
+              <div class="bar-graph col-lg-10 col-md-12 col-xs-12">
                 
                 <div class="activity row">
                   <p id="activity">ACTIVITY</p>
@@ -337,7 +332,7 @@
               </div> <!--BAR-GRAPH-->
               
               <div class="row">
-              <div class="circle-graphs col-md-2 col-xs-2">
+              <div class="circle-graphs col-md-2 col-md-4 col-xs-12">
                 <div class="channels row">
                   <p>CHANNELS</p>
                   <img src="images/channels.png" alt="channels" class="img-responsive" id="channels-graph">
@@ -387,17 +382,18 @@
               <div class="row">
                 <div class="boxes col-lg-12">
                 <div class="outside-box col-md-6 col-lg-4 col-lg-offset-2">
-                                        <div class="sprite sprite-left-arrow" id="green-left-arrow"></div>
+                                        
                   <div class="inside-box">
                     
                     <div class="sprite sprite-green-man"></div>
                     <div class="inside-text">
+                      <span class="sprite sprite-left-arrow" id="green-left-arrow"></span>
                       <p class="inside-big-text">75 CONTACTS</p>
                       <p class="inside-small-text">4 INFLUENCERS</p>
+                       <span class="sprite sprite-right-arrow"></span>
                     </div><!--INSIDE-TEXT-->
                    <!-- <div class="sprite sprite-green-line-graph"></div> -->
                    <img src="images/green-line-graph.png" class="green-line-graph img-responsive">
-                    <div class="sprite sprite-right-arrow"></div>
                   </div> <!--INSIDE-BOX-->
                 </div><!--OUTSIDE BOX-->
                 
@@ -411,10 +407,10 @@
                     <div class="inside-text">
                       <p class="inside-big-text">17 CUSTOMERS</p>
                       <p class="inside-small-text">0 INFLUENCERS</p>
+                       <span class="sprite sprite-right-arrow" id="right-arrow"></span>
                     </div><!--INSIDE-TEXT-->
                     <!--<div class="sprite sprite-orange-line-graph"></div> -->
                     <img src="images/orange-line-graph.png" class="orange-line-graph img-responsive">
-                    <div class="sprite sprite-right-arrow"></div>
                   </div> <!--INSIDE-BOX-->
                 </div><!--OUTSIDE BOX-->
                 </div> <!--BOXES--> 
@@ -464,28 +460,28 @@
     
     <div class="container-fluid">
       <div class="row footer">
-        <div class="left-footer col-lg-3 col-md-3">
+        <div class="left-footer col-lg-3 col-md-3 col-sm-6 col-xs-6">
           <p><span class="tutorials"> Tutorials </span> <span class="support"> Support </span> <span class="blog"> Blog </span></p>
         </div> <!--LEFT-FOOTER-->
         
-        <div class="middle-footer col-lg-5 col-md-3">
+        <div class="middle-footer col-lg-5 col-md-5 col-sm-6 col-xs-6">
           <a href="#">Ariel Winter</a> likes your <a href="#">Win A Cooper Sweepstakes</a> Promotion
            <div class="sprite sprite-blue-check"></div>
         </div><!--MIDDLE-FOOTER-->
         
-        <div class="little-left col-lg-1 col-md-1">
+        <div class="little-left col-lg-1 col-md-1 col-sm-6 col-xs-6">
           <div class="sprite sprite-logout"></div>
           <a href="#" id="logout-text">Logout</a>
         </div>
         
-        <div class=" little-right col-lg-1 col-md-1">
+        <div class=" little-right col-lg-1 col-md-1 col-sm-6 col-xs-6">
           <div class="sprite sprite-facebook"></div>
           <div class="sprite sprite-twitter"></div>
           <div class="sprite sprite-foursquare"></div>
           <div class="sprite sprite-youtube"></div>
         </div>
         
-        <div class="col-lg-2 col-lg-2"></div>
+        <div class="col-lg-2 col-lg-2 col-sm-2 col-xs-2"></div>
       </div><!--ROW-->
     </div> <!--CONTAINER-FLUID--> 
    
