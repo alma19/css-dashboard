@@ -1,0 +1,263 @@
+.sprite {
+    background-image: url(spritesheet_2.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.sprite-analytics-graph {
+    width: 440px;
+    height: 199px;
+    background-position: -5px -5px;
+}
+
+.sprite-blue-check {
+    width: 19px;
+    height: 15px;
+    background-position: -455px -5px;
+}
+
+.sprite-blue-man {
+    width: 20px;
+    height: 22px;
+    background-position: -484px -5px;
+}
+
+.sprite-channels {
+    width: 95px;
+    height: 99px;
+    background-position: -514px -5px;
+}
+
+.sprite-check-background {
+    width: 18px;
+    height: 17px;
+    background-position: -455px -114px;
+}
+
+.sprite-facebook {
+    width: 15px;
+    height: 15px;
+    background-position: -483px -114px;
+}
+
+.sprite-foursquare {
+    width: 15px;
+    height: 15px;
+    background-position: -508px -114px;
+}
+
+.sprite-gray-circle {
+    width: 36px;
+    height: 29px;
+    background-position: -533px -114px;
+}
+
+.sprite-gray-man {
+    width: 20px;
+    height: 22px;
+    background-position: -579px -114px;
+}
+
+.sprite-gray-settings {
+    width: 27px;
+    height: 22px;
+    background-position: -455px -146px;
+}
+
+.sprite-green-bar-graph {
+    width: 54px;
+    height: 66px;
+    background-position: -492px -153px;
+}
+
+.sprite-green-check {
+    width: 36px;
+    height: 34px;
+    background-position: -579px -146px;
+}
+
+.sprite-green-circle {
+    width: 36px;
+    height: 30px;
+    background-position: -556px -190px;
+}
+
+.sprite-green-customers {
+    width: 72px;
+    height: 66px;
+    background-position: -5px -229px;
+}
+
+.sprite-green-dashboard {
+    width: 68px;
+    height: 66px;
+    background-position: -87px -229px;
+}
+
+.sprite-green-lightbulb {
+    width: 36px;
+    height: 35px;
+    background-position: -165px -230px;
+}
+
+.sprite-green-line-graph {
+    width: 190px;
+    height: 80px;
+    background-position: -211px -214px;
+}
+
+.sprite-green-man {
+    width: 81px;
+    height: 72px;
+    background-position: -411px -229px;
+}
+
+.sprite-green-message {
+    width: 72px;
+    height: 66px;
+    background-position: -502px -230px;
+}
+
+.sprite-green-page {
+    width: 36px;
+    height: 36px;
+    background-position: -584px -230px;
+}
+
+.sprite-green-report {
+    width: 68px;
+    height: 66px;
+    background-position: -5px -306px;
+}
+
+.sprite-green-tag {
+    width: 68px;
+    height: 66px;
+    background-position: -83px -306px;
+}
+
+.sprite-left-arrow {
+    width: 15px;
+    height: 40px;
+    background-position: -165px -276px;
+}
+
+.sprite-left-chevron {
+    width: 22px;
+    height: 50px;
+    background-position: -584px -276px;
+}
+
+.sprite-left-circle-arrow {
+    width: 29px;
+    height: 22px;
+    background-position: -161px -336px;
+}
+
+.sprite-left-image {
+    width: 280px;
+    height: 160px;
+    background-position: -200px -311px;
+}
+
+.sprite-logout {
+    width: 39px;
+    height: 35px;
+    background-position: -502px -306px;
+}
+
+.sprite-middle-image {
+    width: 280px;
+    height: 171px;
+    background-position: -625px -5px;
+}
+
+.sprite-orange-check {
+    width: 23px;
+    height: 20px;
+    background-position: -455px -186px;
+}
+
+.sprite-orange-dropdown {
+    width: 20px;
+    height: 12px;
+    background-position: -625px -186px;
+}
+
+.sprite-orange-line-graph {
+    width: 190px;
+    height: 80px;
+    background-position: -655px -186px;
+}
+
+.sprite-orange-man {
+    width: 94px;
+    height: 76px;
+    background-position: -616px -276px;
+}
+
+.sprite-referrals {
+    width: 95px;
+    height: 91px;
+    background-position: -720px -276px;
+}
+
+.sprite-right-arrow {
+    width: 18px;
+    height: 40px;
+    background-position: -855px -186px;
+}
+
+.sprite-right-chevron {
+    width: 22px;
+    height: 50px;
+    background-position: -883px -186px;
+}
+
+.sprite-right-circle-arrow {
+    width: 24px;
+    height: 22px;
+    background-position: -855px -246px;
+}
+
+.sprite-right-image {
+    width: 280px;
+    height: 160px;
+    background-position: -490px -377px;
+}
+
+.sprite-search {
+    width: 23px;
+    height: 22px;
+    background-position: -825px -278px;
+}
+
+.sprite-twitter {
+    width: 16px;
+    height: 15px;
+    background-position: -889px -246px;
+}
+
+.sprite-white-question-mark {
+    width: 46px;
+    height: 31px;
+    background-position: -858px -278px;
+}
+
+.sprite-white-settings {
+    width: 32px;
+    height: 31px;
+    background-position: -825px -319px;
+}
+
+.sprite-white-trangle {
+    width: 51px;
+    height: 15px;
+    background-position: -825px -360px;
+}
+
+.sprite-youtube {
+    width: 15px;
+    height: 15px;
+    background-position: -630px -246px;
+}
